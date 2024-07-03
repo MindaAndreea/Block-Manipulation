@@ -1,0 +1,82 @@
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.menu-block {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 175px;
+  background: linear-gradient(to top, #333 0%, #666 30%, #333 100%);
+  box-shadow: inset 2px 2px 5px 2px #333;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+}
+.menu-block-heading {
+  font-family: Arial;
+  font-size: 18px;
+  text-align: center;
+}
+.menu-block .wrapper {
+  padding-top: 12px;
+}
+.menu-block .wrapper-hor {
+  padding-top: 20px;
+}
+.menu-block .vertical {
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.menu-block .vertical input {
+  transform: rotate(90deg);
+  width: 75px;
+}
+.menu-block .vertical label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 75px;
+}
+.menu-block .horizontal {
+  width: 100px;
+  margin: 0 auto;
+}
+.menu-block .horizontal input {
+  width: 100px;
+}
+.menu-block .horizontal label {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-block .center {
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu-block .center button {
+  margin-top: 10px;
+}
+.menu-block .hex-container {
+  width: 100px;
+  margin: 40px auto 0;
+}
+.menu-block .hex-container input {
+  width: 80px;
+}
+.menu-block .rgba-container {
+  margin: 0 auto;
+  width: 100px;
+}
+.menu-block .rgba-container input {
+  width: 80px;
+}/*# sourceMappingURL=style.css.map */
